@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.xmind.ui.export.image">
+		<item value="/home/tarik/Bureau/Iphone.jpg|/home/tarik/Bureau/MindMap.png|/home/tarik/Bureau/MindMap.jpg" key="PATH_HISTORY"/>
+		<item value="image/jpeg" key="FORMAT"/>
+	</section>
+	<section name="org.xmind.ui.popupDialog">
+		<item value="612" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_X_ORIGIN"/>
+		<item value="207" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_HEIGHT"/>
+		<item value="400" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_WIDTH"/>
+		<item value="352" key="org.xmind.ui.internal.notes.NotesPopupDIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.xmind.ui.PageSetupDialog">
+		<item value="true" key="noBackground"/>
+		<item value="67" key="DIALOG_Y_ORIGIN"/>
+		<item value="false" key="noBorder"/>
+		<item value="351" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.xmind.ui.internal.views.ThemesView">
+		<item value="true" key="LINK_TO_EDITOR"/>
+	</section>
+	<section name="org.xmind.ui.openDialog">
+		<item value="2" key="filterIndex"/>
+	</section>
+	<section name="org.xmind.ui.export.pdfMap">
+	</section>
+	<section name="org.xmind.ui.export.html">
+	</section>
+</section>

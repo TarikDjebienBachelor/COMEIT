@@ -1,0 +1,58 @@
+!SESSION 2010-12-03 20:08:17.929 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY net.xmind.workbench 4 0 2010-12-03 20:09:59.336
+!MESSAGE Failed to connect to xmind.net for site event.
+!STACK 0
+java.net.ConnectException: Connexion terminée par expiration du délai d'attente
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:310)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:176)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:163)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:384)
+	at java.net.Socket.connect(Socket.java:546)
+	at java.net.Socket.connect(Socket.java:495)
+	at java.net.Socket.<init>(Socket.java:392)
+	at java.net.Socket.<init>(Socket.java:266)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at net.xmind.workbench.internal.notification.SiteEventNotificationService$CheckSiteEventJob.run(SiteEventNotificationService.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2010-12-04 01:22:43.099
+!MESSAGE Invalid preference page path: Connexions réseau
+!SESSION 2010-12-04 14:08:24.457 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=fr_FR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY net.xmind.workbench 4 0 2010-12-04 14:10:02.078
+!MESSAGE Failed to connect to xmind.net for site event.
+!STACK 0
+java.net.UnknownHostException: www.xmind.net
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:158)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:384)
+	at java.net.Socket.connect(Socket.java:546)
+	at java.net.Socket.connect(Socket.java:495)
+	at java.net.Socket.<init>(Socket.java:392)
+	at java.net.Socket.<init>(Socket.java:266)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:80)
+	at org.apache.commons.httpclient.protocol.DefaultProtocolSocketFactory.createSocket(DefaultProtocolSocketFactory.java:122)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at net.xmind.workbench.internal.notification.SiteEventNotificationService$CheckSiteEventJob.run(SiteEventNotificationService.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
